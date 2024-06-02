@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavya's Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--aos css link-->
+    <!-- Reference :- With the help of this url, I made some effects in my website -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- Font Awesome style sheet -->
+    <script src="https://kit.fontawesome.com/42f2105e10.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+
+
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#home" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">home</a>
+            <a href="#about">about</a>
+            <a href="#project">project</a>
+            <a href="#skills"> skills</a>
+            <a href="#contact me">contact me</a>
+
+        </nav>
+
+        <div class="follow">
+            <!--<a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>-->
+            <a href="https://www.instagram.com/bhavya_2626/" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/bhavya2626" class="fab fa-linkedin"></a>
+
+        </div>
+    </header>
+
+    <!--home section starts-->
+
+    <section class="home" id="home">
+        <div class="image" data-aos="fade-right">
+            <img src="Bhavya.jpg" alt="">
+
+        </div>
+        <div class="content">
+            <h3 data-aos="fade-up">Hello, I am Bhavya Patel</h3>
+            <span data-aos="fade-up">Student of Algoma University</span>
+            <p data-aos="fade-up"> I am currently enrolled in Bachelor of Computer Science (Honours). </p>
+            <a data-aos="fade-up" href="#about" class="btn">Myself</a>
+        </div>
+    </section>
+    <!--home section ends-->
+
+
+    <!-- about section start-->
+
+    <section class="about" id="about">
+
+        <h1 class="heading" data-aos="fade-up"><span>information</span></h1>
+
+        <div class="information">
+
+            <p data-aos="fade-up"> More about myself. </p>
+
+            <div class="info">
+                <h3 data-aos="zoom-in"><span>name : </span>Bhavya Patel</h3>
+                <h3 data-aos="zoom-in"><span>email : </span>bhavyahpatel2602@gmail.com</h3>
+                <h3 data-aos="zoom-in"><span>phone : </span>437-993-4711</h3>
+                <h3 data-aos="zoom-in"><span>age : </span>21 years</h3>
+                <h3 data-aos="zoom-in"><span>profession : </span>University Student</h3>
+            </div>
+
+            <a href="#" class="btn" onclick="window.open('resume.pdf')" data-aos="fade-up">Download CV</a>
+        </div>
+
+
+        <div class="edu">
+
+            <h1 class="heading" data-aos="fade-up"><span>education</span></h1>
+
+            <div class="row">
+
+                <div class="box-container">
+
+                    <h3 class="title" data-aos="fade-right">education</h3>
+
+                    <div class="box" data-aos="fade-right">
+                        <span>( 2021 - 2025)</span>
+                        <h3>Bachelor of Computer Science (Honours)</h3>
+                        <p> I am currently pursuing my bachelor Degree in Computer Science. I recently completed my 3rd
+                            Year. </p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends-->
+
+
+    <!--project section start-->
+
+    <section class="project" id="project">
+
+        <h1 class="heading" data-aos="fade-up"> <span>project</span></h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="zoom-in">
+                <i class="fas fa-code"></i>
+                <h3>HTML</h3>
+                <p>I have made some HTML projects, when I was in high school.</p>
+
+            </div>
+            <div class="box" data-aos="zoom-in">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Drawing</h3>
+                <p>I got the first place in national drawing competition.</p>
+
+            </div>
+            <div class="box" data-aos="zoom-in">
+                <i class="fab fa-php"></i>
+                <h3>php</h3>
+                <p>I have learned PHP in Algoma University and my professor's name is Michael Lajoie.</p>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!--project section ends-->
+
+
+    <!-- skills section start-->
+
+    <section class="skills" id="skills">
+
+        <h1 class="heading" data-aos="fade-up"><span>skills</span></h1>
+        <div class="webSkills">
+
+            <div class="progress">
+                <div class="bar" data-aos="fade-left">
+                    <h3><span>HTML</span><span>90%</span></h3>
+                </div>
+                <div class="bar" data-aos="fade-right">
+                    <h3><span>CSS</span><span>80%</span></h3>
+                </div>
+                <div class="bar" data-aos="fade-left">
+                    <h3><span>JavaSctipt</span><span>75%</span></h3>
+                </div>
+                <div class="bar" data-aos="fade-right">
+                    <h3><span>PHP</span><span>65%</span></h3>
+                </div>
+                <div class="bar" data-aos="fade-left">
+                    <h3><span>Java</span><span>90%</span></h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--web skills section ends-->
+
+
+    <!--contact section starts-->
+
+    <section class="contact me" id="contact me">
+
+        <h1 class="heading" data-aos="fade-up"><span>contact me</span></h1>
+
+
+        <form action="" method="post">
+            <div class="flex">
+                <input data-aos="fade-right" type="text" name="name" placeholder="Enter your name" class="box" required>
+                <input data-aos="fade-left" type="email" name="email" placeholder="Enter your email" class="box"
+                    required>
+            </div>
+            <input data-aos="fade-up" type="number" min="0" name="number" placeholder="Enter your number" class="box"
+                required>
+            <textarea data-aos="fade-up" name="message" class="box" required placeholder="Enter your message" cols="30"
+                rows="10"></textarea>
+            <input type="submit" data-aos="zoom-in" value="send message" name="send" class="btn">
+        </form>
+
+        <div class="box-container">
+            <div class="box" data-aos="zoom-in">
+                <i class="fas fa-phone"></i>
+                <h3>phone</h3>
+                <p>437-993-4711</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in">
+                <i class="fas fa-envelope"></i>
+                <h3>email</h3>
+                <p>bhavyahpatel2602@gmail.com</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>address</h3>
+                <p>Ontario, Canada</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--contact section ends-->
+    <div class="credit"> &copy;copyright @
+        by <span>Bhavya Patel</span>
+    </div>
+
+
+    <script src="script.js"></script>
+
+    <!--aos js link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            delay: 300
+        });
+    </script>
+
+</body>
+
+</html>
